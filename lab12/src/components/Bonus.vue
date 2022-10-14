@@ -1,7 +1,7 @@
 <template>
     <th> <Button v-bind:class="{'white': !clicked, 'blue': clicked}" v-on:click="!clicked" ></Button></th> 
 </template>
-<script setup>
+<script setup> 
     export default {
         data: {
     clicked: false,
